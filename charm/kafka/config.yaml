@@ -83,3 +83,8 @@ options:
     default: '.10'
     description: |-
       The critical threshold for average idle percentage of a network processor
+  max_message_size_bytes:
+    type: string
+    default: '16777216'
+    description: |-
+      Maximum size of a message accepted by the broker. 

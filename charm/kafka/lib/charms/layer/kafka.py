@@ -83,6 +83,7 @@ class Kafka(object):
             'auto_create_topics': config['auto_create_topics'],
             'default_partitions': config['default_partitions'],
             'default_replication_factor': config['default_replication_factor'],
+            'max_message_size': config['max_message_size_bytes'],
         }
 
         render(
