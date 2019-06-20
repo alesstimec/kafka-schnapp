@@ -53,3 +53,10 @@ write-topic:
       description: Data to write to topic
   required: [topic, data]
   additionalProperties: false
+reset-ua-contracts-kpi:
+  description: Resets the ua-contracts kpi kafka streams application offsets.
+  params:
+    offset:
+      type: string
+      description: Offset for the kafka streams application.
+  required: [offset]
